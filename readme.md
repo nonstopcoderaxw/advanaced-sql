@@ -1,6 +1,12 @@
 ## Setup
 ### export env
-	$ source .env
-reference: https://learnsql.com/blog/25-advanced-sql-query-examples/
+	$ export $(cat .env)
+### create db
+	$ sh ./sqls/setup/create-db.sh
+reference: 
+- https://learnsql.com/blog/25-advanced-sql-query-examples/
+- https://learnsql.com/blog/illustrated-guide-sql-self-join/
+- https://builtin.com/data-science/advanced-sql
 
-next step: https://learnsql.com/blog/illustrated-guide-sql-self-join/
+recursive
+- https://www.postgresqltutorial.com/postgresql-tutorial/postgresql-recursive-query/

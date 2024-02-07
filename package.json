@@ -5,9 +5,6 @@
   "license": "MIT",
 
   "scripts": {
-    "example-1:create-db": "sh ./sqls/example-1/create-db.sh",
-    "example-1:drop-db": "sh ./sqls/example-1/drop-db.sh",
-    "example-1:create-tables": "sh ./sqls/example-1/create-tables.sh",
-    "example-1:drop-tables": "sh ./sqls/example-1/drop-tables.sh"
+    
   } 
 }
